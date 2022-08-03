@@ -1,5 +1,5 @@
 package zama.learning.redis.dao;
 
-public class IBidDao {
-
+public interface IBidDao {
+	void getBids();
 }
